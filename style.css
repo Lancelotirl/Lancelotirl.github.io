@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.campo{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+    font-family: sans-serif;
+}
+
+.cajita h4{
+
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.cajita{
+
+    border: 5px black solid;
+    border-radius: 10px;
+    width: 400px;
+    background: linear-gradient(rgb(255, 149, 50), rgb(245, 226, 51));
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+body{
+
+    background-image: url(img/201532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    border-bottom: 1px solid rgb(248, 245, 245);
+    opacity: .6;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    color: white;
+    opacity: .6;
+}
+
+a{
+    color: white;
+}
+
